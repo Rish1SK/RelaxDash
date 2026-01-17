@@ -1,6 +1,29 @@
 # RelaxDash - AI-Powered Food Delivery Platform
 
 RelaxDash is an intelligent food delivery application that combines FastAPI backend with a React frontend, leveraging AI and semantic routing to provide an enhanced user experience.
+## 🎬 Demo & Chat Examples
+
+All three interactions showcased in a single conversation:
+
+![Chat Interactions Demo](images/Chat.png)
+
+**Interaction 1: Initial Greeting**
+- User sends a greeting message
+- General chat route is triggered
+- Groq LLM generates a friendly greeting response and asks about food preferences
+
+**Interaction 2: Customization Question**
+- User asks: "Can I customize my order?"
+- **Semantic Router** classifies this as an FAQ route
+- **ChromaDB** performs semantic search on FAQ dataset using RAG
+- System retrieves relevant context and replies that customization is available
+
+**Interaction 3: Product Search with SQL**
+- User asks: "Show me tofu dishes under $15"
+- **Semantic Router** classifies this as a SQL route
+- **SQL Generation Module** converts natural language to SQL query
+- **MySQL Database** executes the query and retrieves matching items
+- Results are displayed with options to add to cart
 
 ## 📋 Table of Contents
 
