@@ -364,18 +364,10 @@ Visit `http://localhost:8000/docs` for Swagger UI documentation of all available
 - **Module not found**: Run `npm install` again
 - **Port 3000 already in use**: Kill the process or specify a different port
 
-## 📝 License
-
-[Add your license information here]
 
 ## 👥 Contributors
 
-[Add contributor information here]
+Rishi Senthil Kumar
+Masters Student at North Carolina State University
 
-## 📞 Support
 
-For issues or questions, please contact the development team or create an issue in the repository.
-
----
-
-**Last Updated**: January 2026
